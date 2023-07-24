@@ -1,12 +1,17 @@
-let character = 'luigi';
+// let character = 'luigi';
 
 
-let age = 30;
+// let age = 30;
 
-let isDj = false;
+// let isDj = false;
 
-const circ = (diameter: number) => {
-  return diameter * Math.PI;
-}
+// const circ = (diameter: number) => {
+//   return diameter * Math.PI;
+// }
 
-console.log(circ(300))
+// console.log(circ(300))
+
+
+// explicit types
+let character :string;
+let age: number;
